@@ -88,7 +88,7 @@ body *{
     z-index: 1;
     transform: translateY(-50%);
 
-    animation: slide-back 0.2s;
+    animation: slide-back 400ms;
 }
 
 .light #switch button{
@@ -124,6 +124,9 @@ ul{
 ul li a{
     display: flex;
     justify-content: center;
+
+    align-items: center;
+
     padding: 16px 24px;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
@@ -153,6 +156,7 @@ p{
     padding: 24px 0;
     font-size: 40px;
     justify-content: center;
+    cursor: pointer;
 }
 
 #social-links a{
@@ -167,8 +171,8 @@ p{
 #social-links a:hover{
     background: var(--highlight-color);
     padding: 16px;
-    /*transform: translateY(20px);
-    animation: dropIcons 0.5s ease forwards;*/
+    transform: translate(20px);
+    
 }
 
 /*RODAPÉ*/
