@@ -118,6 +118,7 @@ ul{
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
+    overflow: hidden;
     
 }
 
@@ -126,7 +127,6 @@ ul li a{
     justify-content: center;
 
     align-items: center;
-
     padding: 16px 24px;
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
@@ -156,7 +156,6 @@ p{
     padding: 24px 0;
     font-size: 40px;
     justify-content: center;
-    cursor: pointer;
 }
 
 #social-links a{
